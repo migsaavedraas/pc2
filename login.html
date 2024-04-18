@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <h2>Iniciar sesión</h2>
+    <form>
+        <label for="username">Usuario:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Contraseña:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="user_type">Tipo de usuario:</label><br>
+        <select id="user_type" name="user_type" required>
+            <option value="profe">Usuario Profe</option>
+            <option value="alumno">Usuario Alumno</option>
+        </select><br><br>
+
+        <input type="button" value="Iniciar sesión" id="login_button">
+    </form>
+    </div>
+</body>
+</html>
